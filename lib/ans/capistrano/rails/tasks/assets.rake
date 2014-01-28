@@ -6,6 +6,6 @@ namespace :assets do
     fetch(:default_env).delete(:RAILS_GROUPS)
   end
 
-  before :"assets:precompile", :set_rails_groups
-  after :"assets:precompile", :remove_rails_groups
+  before :"deploy:compile_assets", :set_rails_groups
+  after :"deploy:compile_assets", :remove_rails_groups
 end
