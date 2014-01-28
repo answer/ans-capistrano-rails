@@ -1,9 +1,13 @@
 require "ans/capistrano/rails/version"
 
+require "capistrano/bundler"
+require "capistrano/rails/migrations"
+
+require "ans/capistrano/rails/seeds"
+
 module Ans
   module Capistrano
     module Rails
-      # Your code goes here...
     end
   end
 end
