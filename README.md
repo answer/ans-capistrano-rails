@@ -22,7 +22,7 @@ Or install it yourself as:
 
     # Capfile
     require "capistrano/bundler"
-    require "ans/capistrano/rails"
+    require "ans/capistrano/rails/seeds"
 
 ## Contributing
 
