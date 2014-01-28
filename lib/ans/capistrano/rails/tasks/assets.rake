@@ -1,5 +1,5 @@
 namespace :deploy do
-  namespace :assets
+  namespace :assets do
     task :set_rails_groups do
       fetch(:default_env)[:RAILS_GROUPS] = "assets"
     end
