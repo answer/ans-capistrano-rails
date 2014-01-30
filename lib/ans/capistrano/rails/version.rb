@@ -1,7 +1,7 @@
 module Ans
   module Capistrano
     module Rails
-      VERSION = "0.0.10"
+      VERSION = "1.0.0"
     end
   end
 end
